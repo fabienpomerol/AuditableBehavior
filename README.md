@@ -102,7 +102,7 @@ Built in methods
 * ```getLastActivity($number=10, $label=null, $con=null)``` return the recent object related activity.
 * ```logActivity($label, $con=null)``` create an activity entry for $label
 * ```countActivity($label = null, $con=null)``` count related activity
-* ```isAudited()``` is the current objcet auditableing its activity
+* ```isAudited()``` is the current object auditableing its activity
 * ```disableLocalAudit()``` temporary remove auditableing activity for this object
 * ```enableLocalAudit()``` temporary force auditableing activity for this object
 * ```getActivityCriteria``` get a criteria to filter activity against this object
